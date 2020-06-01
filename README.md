@@ -1,5 +1,5 @@
 # Jekyllブランクテンプレート
-Jekyll 4.0用 ブランクテンプレート
+Jekyll 4.0用 非公式ブランクテンプレート  
 Jekyll公式サイト: [https://jekyllrb.com/](https://jekyllrb.com/)
 
 ## 開発環境ファイルを参照してのserve
