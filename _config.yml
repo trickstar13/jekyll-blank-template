@@ -1,0 +1,29 @@
+# サイト設定
+title: "サイト名を入力します"
+email: your-email@example.com
+description: >-
+  あなたの新しいサイトの素晴らしい説明をここに書いてください。この行は_config.yamlで編集できます。これは、文書のhead meta (Googleの検索結果)とfeed.xmlに表示されます。
+url: "" # サイトのURL 例） http://example.com
+timezone: Asia/Tokyo date
+
+# SNS
+og_image: /img/common/og_default.png
+facebook_username: facebook_username
+facebook_appid: facebook_appid
+twitter_username: twitter_username
+
+## Sass出力設定
+sass:
+  sass_dir: css
+  style: compressed
+
+## HTML圧縮
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+  startings: [html, head, body]
+
+# _siteに出力しないファイル
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
